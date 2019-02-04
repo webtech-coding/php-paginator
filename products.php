@@ -15,7 +15,7 @@ include('resources/database/paginator.php');
 <body>
     <h1>Paginator</h1>
     <?php
-        $page=(empty($_GET['page'] || $_GET['page']==0))?1:$_GET['page'];
+        $page=(empty($_GET['page'] || $_GET['page']==0 || isset($_GET['page'])))?1:$_GET['page'];
         $products=new Products();
         $total=$products->count_Items();
         $paginator=new Paginator($page,2,$total);

@@ -1,10 +1,10 @@
 # PHP paginator
-Php pagination
+A simple Php pagination. 
 
 
 ## How to run ?
 Intall the package
 ````
-npm init
+npm install
 npm run sass
-npm run babel
+
