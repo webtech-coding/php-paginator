@@ -40,3 +40,24 @@ button:active {
 
 html {
   font-size: 100%; }
+
+.products {
+  display: flex;
+  margin: 50px 0px;
+  justify-content: space-around; }
+  .products .item {
+    width: 400px;
+    float: left; }
+    .products .item img {
+      height: 150px;
+      width: 150px; }
+
+.paginator {
+  text-align: center; }
+  .paginator a {
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 20px; }
